@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- link css -->
+     <link rel="stylesheet" href="css/style.css">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+     <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/suitmedialogo.png" alt="logo" width="100%" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#" data-link="work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about" data-link="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#services" data-link="services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#ideas" data-link="ideas">Ideas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#career" data-link="career">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact" data-link="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <!-- <section class="jumbotron text-center ">
+        <img src="img/herosectionlogo.jpg" alt="profil">
+        <h1 class="display-4 mt-2"><span>Galang</span> Maulana</h1>
+        <p class="lead">The students from Amikom University Yogyakarta</p>    
+    </section> -->
+    <div class="bg-image">
+    
+    </div>
+    <!-- hero section end -->
+
+     <!-- Card Produk -->
+     <div class="container mt-4">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="sort" class="form-label">Sort by:</label>
+                <select id="sort" class="form-select">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="show" class="form-label">Show per page:</label>
+                <select id="show" class="form-select">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="product-list" class="row">
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011200">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">Example content for product 1.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011300">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">Example content for product 2.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011400">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 3</h5>
+                        <p class="card-text">Example content for product 3.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 4</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 5</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 6</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 7</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 8</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 9 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 9</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 10 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 10</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 11 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 11</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 12 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 12</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 13 -->
+            <div class="col-lg-3 col-md-4 mb-4 product-card" data-timestamp="1625011500">
+                <div class="card" style="width: 100%;">
+                    <img src="/img/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 13</h5>
+                        <p class="card-text">Example content for product 4.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more cards as needed -->
+        </div>
+
+        <!-- Pagination Controls -->
+        <div id="pagination" class="d-flex justify-content-center mt-4">
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <!-- Pagination items will be dynamically added here -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Card Produk End -->
+
+    <!-- card produk -->
+
+    <!-- link bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
